@@ -65,5 +65,5 @@ resource "aws_iam_role_policy_attachment" "custom" {
   ami = "ami-027d95b1c717e8c5d"
   key_name = "niv.keyy"
   iam_instance_profile = aws_iam_instance_profile.ec2app.name
-   
- }
+  
+}
