@@ -62,8 +62,8 @@ resource "aws_iam_role_policy_attachment" "custom" {
  }
  resource "aws_instance" "niv1" {
   instance_type = "t2.micro"
-  ami = "ami-027d95b1c717e8c5d"
-  key_name = "niv.keyy"
+  ami = "ami-ID"
+  key_name = "YOURKEY"
   iam_instance_profile = aws_iam_instance_profile.ec2app.name
   
 }
